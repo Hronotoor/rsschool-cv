@@ -1,5 +1,4 @@
-![](img\photo_2024-08-29_15-50-21.jpg)
-
+![alt text](../img/photo_2024-08-29_15-50-21.jpg)
 # Vitaliy Timirev
 
 + **CONTACT**
@@ -28,7 +27,7 @@ function evenOrOdd(number) {
     + 2011 - 2017 Platov South-Russian State Polytechnic University (NPI)
     + Energy Faculty
 
-**No experience in web development**
++ **No experience in web development**
 
-**English language level** - А1
++ **English language level** - А1
 
