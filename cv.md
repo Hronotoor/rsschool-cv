@@ -1,4 +1,4 @@
-![Its me](<../img/my photo.jpg>)
+![Its me](<img/my photo.jpg>)
 
 # Vitaliy Timirev
 
