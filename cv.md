@@ -1,3 +1,5 @@
+![](C:\Users\Timirev\Desktop\RS\img\photo_2024-08-29_15-50-21.jpg)
+
 # Vitaliy Timirev
 
 + **CONTACT**
@@ -5,8 +7,8 @@
     + tg: @hronotoor
     + discord: Vitaliy Timirev (@hronotoor)
 
-## ABOUT
-**My goal** is to become a *front-end developer*. Prior to the course, I was trying to learn web development on my own. I spent at least 15 minutes every day learning until it became a habit instead of something I had to force myself to do.
++ **ABOUT**
+    + *My goal* is to become a *front-end developer*. Prior to the course, I was trying to learn web development on my own. I spent at least 15 minutes every day learning until it became a habit instead of something I had to force myself to do.
 
 + **SKILLS**
     + GitHub
