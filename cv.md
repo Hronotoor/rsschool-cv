@@ -1,4 +1,5 @@
-![alt text](../img/photo_2024-08-29_15-50-21.jpg)
+![Its me](<../img/my photo.jpg>)
+
 # Vitaliy Timirev
 
 + **CONTACT**
