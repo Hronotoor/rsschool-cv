@@ -1,4 +1,4 @@
-![](C:\Users\Timirev\Desktop\RS\img\photo_2024-08-29_15-50-21.jpg)
+![](img\photo_2024-08-29_15-50-21.jpg)
 
 # Vitaliy Timirev
 
@@ -14,7 +14,7 @@
     + GitHub
     + VSCode
 
-[CodeWars](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe)
++ [CodeWars](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe)
 ```
 function evenOrOdd(number) {
   if (number % 2 == 0) {
