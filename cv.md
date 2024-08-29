@@ -5,6 +5,7 @@
     + tg: @hronotoor
     + discord: Vitaliy Timirev (@hronotoor)
 
+## ABOUT
 **My goal** is to become a *front-end developer*. Prior to the course, I was trying to learn web development on my own. I spent at least 15 minutes every day learning until it became a habit instead of something I had to force myself to do.
 
 + **SKILLS**
@@ -21,9 +22,9 @@ function evenOrOdd(number) {
   }
 }
 ```
-**Education**
-    2011 - 2017 Platov South-Russian State Polytechnic University (NPI)
-    Energy Faculty
++ **Education**
+    + 2011 - 2017 Platov South-Russian State Polytechnic University (NPI)
+    + Energy Faculty
 
 **No experience in web development**
 
