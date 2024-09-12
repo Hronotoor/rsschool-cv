@@ -1,0 +1,47 @@
+
+.header
+    {
+        display: flex;
+        background-color: lightblue;
+    }
+.photo
+    {
+        height: 400px;
+        padding: 10px;
+    }
+.name 
+    {
+        text-align: center;
+        width: 70%;
+        font-size: 150px;
+        padding: 30px;
+    }
+.body
+    {
+        font: 16px sans-serif;
+        line-height: 1.5;
+        padding: 20px;
+        background-color: rgba(173, 216, 230, 0.5) ;
+    }
+.footer
+    {
+        display: flex;
+        background-color: lightblue;
+    }
+.logo
+    {
+        height: 100px;
+        padding: 10px;
+        opacity: 0.5;
+    }
+.info
+    {
+        font: 16px sans-serif;
+        line-height: 1.5;
+        padding: 20px;
+    }
+.fhref
+    {
+        text-decoration: none;
+        color: black;
+    }
