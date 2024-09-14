@@ -1,3 +1,36 @@
+html 
+    {
+        scroll-behavior: smooth;
+    }
+
+*
+    {
+        box-sizing: border-box;
+    }
+
+body
+    {
+        font-style: "Roboto", sans-serif;;
+    }
+
+.main
+    {
+        background-color: rgba(173, 216, 230, 0.5) 
+    }
+
+.nav-list 
+    {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+        padding: 0 40px;
+    }
+.nav-link 
+    {
+        padding: 0 20px;
+        line-height: 50px;
+    }
 
 .header
     {
@@ -21,7 +54,6 @@
         font: 16px sans-serif;
         line-height: 1.5;
         padding: 20px;
-        background-color: rgba(173, 216, 230, 0.5) ;
     }
 .footer
     {

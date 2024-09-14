@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -14,9 +17,20 @@
         </div>
     </header>
 
-    <main>
+    <main class="main">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="#contact"></a>Contact</li>
+                <li class="nav-item"><a class="nav-link" href="#about"></a>About</li>
+                <li class="nav-item"><a class="nav-link" href="#skills"></a>Skills</li>
+                <li class="nav-item"><a class="nav-link" href="#code"></a>Code</li>
+                <li class="nav-item"><a class="nav-link" href="#education"></a>Education</li>
+                <li class="nav-item"><a class="nav-link" href="#exp"></a>Experience</li>
+                <li class="nav-item"><a class="nav-link" href="#eng"></a>Language</li>
+            </ul>
+        </nav>
         <div class="body">
-            <div>
+            <div id="contact">
                 <h2>CONTACT</h2>
                 <ul>
                     <li>+7 951 493 1276</li>
@@ -24,7 +38,7 @@
                     <li>discord: Vitaliy Timirev (@hronotoor)</li>
                 </ul>
             </div>
-            <div>
+            <div id="about">
                 <h2>ABOUT</h2>
                 <p>
                     <i>My goal</i> is to become a <i>front-end developer*</i>.
@@ -33,7 +47,7 @@
                      I had to force myself to do.
                 </p>
             </div>
-            <div>
+            <div id="skills">
                 <h2>SKILLS</h2>
                 <ul>
                     <li>GitHub</li>
@@ -41,6 +55,33 @@
                     <li>HTML</li>
                     <li>CSS</li>
                 </ul>
+            </div>
+            <div id="code">
+                <h2>CODE</h2>
+                <pre>
+                <code>
+function evenOrOdd(number) {
+    if (number % 2 == 0) {
+        return "Even"
+    } else {
+        return "Odd"
+    }
+}
+                </code>
+                </pre>
+            </div>
+            <div id="education">
+                <h2>EDUCATION</h2>
+                <ul>
+                    <li>2011 - 2017 Platov South-Russian State Polytechnic University (NPI)</li>
+                    <li>Energy Faculty</li>
+                </ul>
+            </div>
+            <div id="exp">
+                <p>No experience in web development</p>
+            </div>
+            <div id="eng">
+                <p>English language level - А1</p>
             </div>
         </div>
     </main>
