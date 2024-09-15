@@ -1,6 +1,7 @@
 html 
     {
         scroll-behavior: smooth;
+        background-color: rgba(109, 183, 103, 0.624);
     }
 
 *
@@ -8,14 +9,44 @@ html
         box-sizing: border-box;
     }
 
-body
+.body
     {
-        font-style: "Roboto", sans-serif;;
+        font-style: 16px sans-serif;
+        margin: 0px;
     }
 
 .main
     {
-        background-color: rgba(173, 216, 230, 0.5) 
+        font: 16px sans-serif;
+        line-height: 1.5;
+    }
+
+.header
+    {
+        display: flex;
+        height: 450px;
+        background-color: rgba(73, 133, 69, 0.624);
+        padding: 20px;
+    }
+.photo
+    {
+        height: 410px;
+        padding: 10px;
+    }
+.name 
+    {
+        text-align: center;
+        width: 80%;
+        font-size: 120px;
+        padding: 30px;
+    }
+
+.nav-link 
+    {
+        padding: 0 20px;
+        line-height: 50px;
+        color: black;
+        transition: 0.3s;
     }
 
 .nav-list 
@@ -24,56 +55,48 @@ body
         justify-content: flex-end;
         align-items: center;
         list-style: none;
-        padding: 0 40px;
-    }
-.nav-link 
-    {
-        padding: 0 20px;
-        line-height: 50px;
+        font-size: 24px;
+        margin-block:0px;
+        
+        
     }
 
-.header
+.cvinfo
     {
-        display: flex;
-        background-color: lightblue;
-    }
-.photo
-    {
-        height: 400px;
-        padding: 10px;
-    }
-.name 
-    {
-        text-align: center;
-        width: 70%;
-        font-size: 150px;
-        padding: 30px;
-    }
-.body
-    {
-        font: 16px sans-serif;
-        line-height: 1.5;
         padding: 20px;
+        width: 50%;
+    }
+.precode
+    {
+        background-color: rgba(128, 128, 128, 0.482);
+        padding: 20px;
+        width: 300px;
+        margin: 0px;
     }
 .footer
     {
         display: flex;
-        background-color: lightblue;
+        background-color: rgba(73, 133, 69, 0.624);
+        height: 120px;
     }
 .logo
     {
-        height: 100px;
+        height: 120px;
         padding: 10px;
         opacity: 0.5;
     }
 .info
     {
-        font: 16px sans-serif;
-        line-height: 1.5;
         padding: 20px;
     }
 .fhref
     {
         text-decoration: none;
+        list-style: none;
         color: black;
+    }
+.dots
+    {
+        list-style: none;
+        font-size: 16px;
     }

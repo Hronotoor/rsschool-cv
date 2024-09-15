@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link href="style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="body">
     <header>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#code">Code</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#exp">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#eng">Language skill</a></li>
+            </ul>
+        </nav>
         <div class="header">
             <img class="photo" src="img/myphoto.jpg" alt="me">
             <h1 class="name">Vitaliy Timirev</h1>
@@ -18,18 +26,7 @@
     </header>
 
     <main class="main">
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a class="nav-link" href="#contact"></a>Contact</li>
-                <li class="nav-item"><a class="nav-link" href="#about"></a>About</li>
-                <li class="nav-item"><a class="nav-link" href="#skills"></a>Skills</li>
-                <li class="nav-item"><a class="nav-link" href="#code"></a>Code</li>
-                <li class="nav-item"><a class="nav-link" href="#education"></a>Education</li>
-                <li class="nav-item"><a class="nav-link" href="#exp"></a>Experience</li>
-                <li class="nav-item"><a class="nav-link" href="#eng"></a>Language</li>
-            </ul>
-        </nav>
-        <div class="body">
+        <div class="cvinfo">
             <div id="contact">
                 <h2>CONTACT</h2>
                 <ul>
@@ -41,7 +38,7 @@
             <div id="about">
                 <h2>ABOUT</h2>
                 <p>
-                    <i>My goal</i> is to become a <i>front-end developer*</i>.
+                    <i>My goal</i> is to become a <i>front-end developer</i>.
                      Prior to the course, I was trying to learn web development on my own. 
                      I spent at least 15 minutes every day learning until it became a habit instead of something 
                      I had to force myself to do.
@@ -58,8 +55,8 @@
             </div>
             <div id="code">
                 <h2>CODE</h2>
-                <pre>
-                <code>
+                <pre class="precode">
+                <code class="code">
 function evenOrOdd(number) {
     if (number % 2 == 0) {
         return "Even"
@@ -78,10 +75,11 @@ function evenOrOdd(number) {
                 </ul>
             </div>
             <div id="exp">
+                <h2>EXPERIENCE</h2>
                 <p>No experience in web development</p>
             </div>
             <div id="eng">
-                <p>English language level - А1</p>
+                <h2>English language level - А1</h2>
             </div>
         </div>
     </main>
@@ -90,7 +88,7 @@ function evenOrOdd(number) {
         <div class="footer">
                 <img class="logo" src="img/rs-school-logo.svg" alt="logo">
             <div class="info">
-                <ul>
+                <ul class="dots">
                     <li><a class="fhref" href="https://rs.school/courses/javascript-ru">Course RSSchool</a></li>
                     <li><a class="fhref" href="https://github.com/Hronotoor">Author's Git</a>
                     <li>2024</li>
